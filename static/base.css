@@ -1,0 +1,192 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+}
+
+img{
+    max-width: 250px;
+    padding: 3px;
+    display: block;
+}
+
+.avail-True {
+    border: #008000;
+    border-style: solid;
+    border-width: 0.20rem;
+    border-radius: 0.25rem;
+}
+
+.avail-False {
+    border: #800000;
+    border-style: solid;
+    border-width: 0.20rem;
+    border-radius: 0.25rem;
+}
+
+.div-avail-True {
+    background-color:#75ff75;
+
+}
+
+.div-avail-False {
+    background-color:pink;
+}
+
+.lbl {
+    margin-top: 1.00rem;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.00rem;
+    font-weight: bold;
+}
+
+.inp {
+    display: block;
+    font-size: 1.25rem;
+    font-weight: normal;
+    width: 20.00rem;
+}
+
+.btn {
+    margin-top: 1.00rem;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1.00rem;
+    border-radius: 0.75rem;
+}
+
+.btn-add {
+    background-color: rgb(120, 194, 173);
+    font-weight: bold;
+    color: #efefef;
+}
+
+.pet-name {
+    color: rgb(120, 194, 173)
+}
+
+.pets {
+    float: left;
+    margin: 0.75rem;
+    padding: 0.50rem;
+    border-radius: 0.75rem;
+}
+
+.div-float {
+    float: left;
+}
+
+.dsp-block {
+    display: block;
+}
+
+.error-fld {
+    display: block;
+    color: #D00000;
+    font-size: 0.75rem;
+}
+
+
+
+
+
+
+#div-tags{
+    margin-top: 1.00rem;
+    font-size: 1.25rem;
+}
+
+.tags-list {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.00rem;
+}
+
+.users-list {
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.00rem;
+}
+
+
+
+.view-user-name {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.00rem;
+    font-weight: bold;
+}
+
+.post-content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 5.00rem;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.post-byline {
+    display: block;
+}
+
+
+
+.flashes {
+    list-style-type: none;
+}
+
+.post-tag {
+    color: #CCC;
+    background-color: #8f00bb;
+    font-style: italic;
+    font-size: 1.0rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.15rem;
+}
+
+.error {
+    color: #BB0000;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.warning {
+    color: orange;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.okay {
+    color: rgb(0, 180, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-edit {
+    background-color: #000080;
+    color: #CCC;
+}
+
+.btn-delete {
+    background-color: #800000;
+    color: #CCC;
+}
+
+
+
+/* input[type="submit"]:disabled, 
+button:disabled {
+    background-color: #F0F0F0;
+    color: #AAA;
+} */
+  
+.dsp-hide {
+    display: none;
+}
+
+.dsp-inline {
+    display: inline;
+}
+

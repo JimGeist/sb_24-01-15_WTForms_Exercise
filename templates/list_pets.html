@@ -1,0 +1,41 @@
+{% extends '_base.html' %}
+{% block content %}
+<h1>Pets</h1>
+<div class="" id="main-container">
+  <div>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <ul class="flashes">
+      {% for category, message in messages %}
+      <li class="{{ category }}">{{ message|safe }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
+  </div>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          {% for pet in pets %}
+          <div class="pets div-avail-{{ pet.available }}">
+            <img class="avail-{{ pet.available }}" src="{{ pet.photo_url }}" alt="no image &#x1F615;">
+            <span class="pet-name"><a href="/{{ pet.id }}">{{ pet.name }}</a></span>
+            {% if pet.available %}
+            <span><strong>is available!</strong></span>
+            {% else %}
+            <span>is not available.</span>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a class="dsp-block" href="/add"><button class="btn btn-add dsp-block">Add a Pet</button></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+{% endblock %}
